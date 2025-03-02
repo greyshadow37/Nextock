@@ -23,7 +23,7 @@ for ticker in tickers:
         print(f"Fetching data for {ticker}...")
         df = yf.download(ticker, start=start_date, end=end_date)
         
-        if df.empty: # if no data 
+        if df.empty: 
             print(f"No data found for {ticker}, skipping.")
             continue
         
