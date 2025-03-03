@@ -21,6 +21,7 @@
 # - datetime 
 # - os
 # - streamlit
+# - time
 
 import streamlit as st
 import pandas as pd
@@ -28,6 +29,7 @@ import yfinance as yf
 import os
 import pickle
 import datetime
+import time
 
 
 
@@ -51,6 +53,7 @@ PERIODS = {"Next Day": 1, "Next Week": 7, "Next Month": 30}
 # function to fetch data from the yfinance API
 @st.cache_data
 def fetch_data(ticker):
+    time.sleep(1)  # lag to prevent surpassing the API rate limit 
     end_date = datetime.datetime.today()
     start_date = end_date - datetime.timedelta(days=180)  
     df = yf.download(ticker, start=start_date, end=end_date)

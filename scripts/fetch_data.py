@@ -18,6 +18,7 @@
 # - yfinance
 # - pandas
 # - time
+
 import yfinance as yf
 import pandas as pd
 import time
@@ -52,7 +53,7 @@ for ticker in tickers:
         df.to_csv(f"{output_dir}/{ticker}.csv")
         print(f"Saved {ticker}.csv successfully!")
 
-        time.sleep(1) # lag to prevent surpassing the API limit 
+        time.sleep(1) # lag to prevent surpassing the API rate limit 
 
     except Exception as e: # in case of any unprecedented error 
         print(f"Error fetching {ticker}: {e}")
