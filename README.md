@@ -33,7 +33,7 @@ The last 6 months' actual stock prices -
     pip install -r requirements.txt
 **3. Run the Streamlit dashboard:**
 
-    streamlit run nextock_dashboard.py
+    streamlit run dashboard.py
 
 
 ## 📶 Model Workflow
