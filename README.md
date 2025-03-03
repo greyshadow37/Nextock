@@ -2,7 +2,7 @@
 Nextock is a Stock Price Prediction Dashboard built using Streamlit. It allows users to select a stock ticker and a forecast period to predict the next closing price using ARIMA and XGBoost models.
 
 
-## Features
+## 🚀 Features
 1. Fetches real-time stock data using yfinance API
 2. Uses ARIMA models to generate OHLCV (Open, High, Low, Close, Volume) predictions
 3. Feeds ARIMA predictions into XGBoost models to predict the next Close price
@@ -42,7 +42,7 @@ The last 6 months' actual stock prices -
 **3. XGBoost Model Prediction:** Uses ARIMA outputs to predict the next Close price
 **4. Visualization:** Plots actual vs predicted stock prices in a Streamlit dashboard
 
-## Supported Stock Tickers
+## 💹 Supported Stock Tickers
     AAPL, MSFT, GOOGL, AMZN, NVDA, JPM, GS, BAC, C, V, MA, XOM, CVX, BP, JNJ, PFE, UNH, WMT, COST, KO, PEP, PG, SPY, QQQ, DIA
 
 ## ⏳ Future Improvements
