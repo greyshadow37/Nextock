@@ -45,3 +45,17 @@ The last 6 months' actual stock prices -
 ## Supported Stock Tickers
     AAPL, MSFT, GOOGL, AMZN, NVDA, JPM, GS, BAC, C, V, MA, XOM, CVX, BP, JNJ, PFE, UNH, WMT, COST, KO, PEP, PG, SPY, QQQ, DIA
 
+## ⏳ Future Improvements
+Here are some planned enhancements for Nextock:
+
+**1. 📊 Advanced Analytics Options** – Introduce more in-depth analytics, including trend detection and sentiment analysis.
+
+**2. 📅 Forecasting Beyond One Month** – Extend predictions to cover longer periods, such as 3 months, 6 months, or even a year.
+
+**3. 📈 Improved Accuracy & Error Rate Display** – Enhance model performance and provide real-time error metrics (e.g., MAE, RMSE, MAPE).
+
+**4.🧠 Neural Networks & LSTMs** – Integrate deep learning models like LSTMs and transformers for more accurate predictions.
+
+**5. 📡 Support for More Tickers** – Expand coverage beyond the current 25 stock tickers.
+
+**6. 🎨 Improved UI/UX** – Optimize the dashboard for a smoother and more user-friendly experience.
