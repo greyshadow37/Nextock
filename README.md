@@ -37,9 +37,13 @@ The last 6 months' actual stock prices -
 
 
 ## 📶 Model Workflow
+
 **1. Data Collection:** Fetches 6 months' historical data from yfinance
+
 **2. ARIMA Model Prediction:** Generates OHLCV forecasts
+
 **3. XGBoost Model Prediction:** Uses ARIMA outputs to predict the next Close price
+
 **4. Visualization:** Plots actual vs predicted stock prices in a Streamlit dashboard
 
 ## 💹 Supported Stock Tickers
